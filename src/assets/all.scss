@@ -1,0 +1,7 @@
+// 這三個順序是 Bootstrap 官方定的，不能調整
+@import "~bootstrap/scss/_functions"; // BS套用變數的方法
+@import "./helpers/_variables"; // 自定義的變數
+@import "~bootstrap/scss/bootstrap";
+
+@import "./_dashboard"; 
+@import "./_style";
